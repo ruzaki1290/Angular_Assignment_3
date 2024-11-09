@@ -9,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class TodosComponent {
 
+  todos = [];
+
+  constructor() { }
+
+  ngOnInit(): void {
+    
+  }
 }

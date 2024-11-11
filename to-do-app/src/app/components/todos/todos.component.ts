@@ -22,7 +22,19 @@ export class TodosComponent {
         completed: false
       },
       {
-        content: 'Second tod',
+        content: 'Second todo',
+        completed: false
+      },
+      {
+        content: 'Third todo',
+        completed: false
+      },
+      {
+        content: 'Forth todo',
+        completed: false
+      },
+      {
+        content: 'Fith todo',
         completed: false
       }
     ]

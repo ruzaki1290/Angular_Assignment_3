@@ -1,8 +1,8 @@
-<p>It works! 😃</p>
+<p class="status-message">Your-up-to date tasks manager 😊</p>
 <div class="todos">
     <div class="todo" *ngFor="let todo of todos; let i = index;">
-        <div class="id">0</div>
-        <div class="content">My Todo</div>
+        <div class="id">{{ i + 1 }}</div>
+        <div class="content"> {{ todo.content}} </div>
         <button class="delete">Remove</button>
     </div>
 </div>
